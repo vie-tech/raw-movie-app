@@ -8,9 +8,9 @@ export default function FavouriteList(props){
         <>
     
         <div className="favourite-card">
-        <img src={props.img} alt="" onClick={ ()=> props.handleClick2(props.movie)}/>
-        <div className="non-overlay"> <span className="non-favouriteText">Remove from favourite</span>  <FaHeart color="red" /></div>
-
+        <img src={props.img} alt="" onClick={()=> props.handleClick2(props.movie)}/>
+        <div className="non-overlay"> <span className="non-favouriteText">Remove From favourite</span>  <FaHeart color="red" /></div>
+ 
         </div>
         
         </>
